@@ -35,6 +35,15 @@ newText=newText[:-1]
 d = {}
 for i in newText.split('-'):
     if i not in d:
+
+
+
+
+
+
+
+
+
         d[i] = newText.count(i)
 print(d)
 
