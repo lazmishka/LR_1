@@ -1,0 +1,12 @@
+text = "    Hello, python!    "
+print(text, len(text))
+text=text.strip()
+print(text, len(text))
+text1 =text.replace("!", "?")
+print(text1)
+text1=text1.upper()
+print(text1)
+text2 = text.lower()
+print(text2)
+text2=text2.strip()
+print(text2)
